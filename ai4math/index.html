@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI for Mathematics — XMUM</title>
+  <title>AI for Mathematics — XMUM GE</title>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
@@ -33,6 +33,11 @@
       font-size: 1.1em;
       margin-bottom: 32px;
     }
+    .info {
+      color: #888;
+      font-size: 0.9em;
+      margin-bottom: 24px;
+    }
     .week-list {
       list-style: none;
     }
@@ -54,6 +59,12 @@
       transform: translateX(4px);
       box-shadow: 0 2px 8px rgba(0,102,204,0.2);
     }
+    .week-list .upcoming {
+      background: #f5f5f5;
+      border-left-color: #ccc;
+      color: #999;
+      pointer-events: none;
+    }
     footer {
       margin-top: 32px;
       color: #999;
@@ -66,13 +77,27 @@
   <div class="container">
     <h1>AI for Mathematics</h1>
     <p class="subtitle">XMUM General Elective — April Semester 2026</p>
+    <p class="info">Instructor: Ma Jiajun &middot; Tuesday 3:00–6:00pm &middot; A4#G11</p>
 
     <ul class="week-list">
       <li><a href="week01/">Week 1: From Counting to AI</a></li>
+      <li><a href="week02/" class="upcoming">Week 2: Dependent Type Theory + LLM Reasoning (coming soon)</a></li>
+      <li><a href="week03/" class="upcoming">Week 3: Reading Proofs in Lean (coming soon)</a></li>
+      <li><a href="week04/" class="upcoming">Week 4: Functional Programming in Lean (coming soon)</a></li>
+      <li><a href="week05/" class="upcoming">Week 5: Prompting and Agent-Based Proving (coming soon)</a></li>
+      <li><a href="week06/" class="upcoming">Week 6: LLM Proof Generation Pipeline (coming soon)</a></li>
+      <li><a href="week07/" class="upcoming">Week 7: Tactics, Metaprogramming, Tools (coming soon)</a></li>
+      <li><a href="week08/" class="upcoming">Week 8: RL for Proof Generation + Benchmarks (coming soon)</a></li>
+      <li><a href="week09/" class="upcoming">Week 9: Pattern Mining and Discovery (coming soon)</a></li>
+      <li><a href="week10/" class="upcoming">Week 10: Literature Search and Knowledge Extraction (coming soon)</a></li>
+      <li><a href="week11/" class="upcoming">Week 11: Conjecture Generation + Case Studies (coming soon)</a></li>
+      <li><a href="week12/" class="upcoming">Week 12: Project Guidance (coming soon)</a></li>
+      <li><a href="week13/" class="upcoming">Week 13: Student Presentations (coming soon)</a></li>
+      <li><a href="week14/" class="upcoming">Week 14: Student Presentations + Summary (coming soon)</a></li>
     </ul>
 
     <footer>
-      Instructor: Ma Jiajun &middot; Tuesday 3:00–6:00pm
+      Powered by <a href="https://sli.dev/" style="color: #0066cc;">Slidev</a>
     </footer>
   </div>
 </body>
