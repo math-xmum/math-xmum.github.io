@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-label="Transformer families">
+  <rect width="900" height="500" rx="26" fill="#f7fbff"/>
+  <text x="450" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">Three Common Transformer Families</text>
+  <rect x="52" y="105" width="245" height="282" rx="18" fill="white" stroke="#0066cc" stroke-width="4"/>
+  <text x="175" y="143" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#003366">Encoder</text>
+  <text x="175" y="174" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">bidirectional attention</text>
+  <rect x="90" y="205" width="170" height="46" rx="10" fill="#e6f0ff" stroke="#0066cc" stroke-width="3"/>
+  <text x="175" y="234" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#003366">all tokens visible</text>
+  <text x="175" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">Used for classification,</text>
+  <text x="175" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">retrieval, masked tokens</text>
+  <text x="175" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#003366">example: BERT</text>
+  <rect x="327" y="105" width="245" height="282" rx="18" fill="white" stroke="#e07000" stroke-width="4"/>
+  <text x="450" y="143" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#7a3f00">Decoder</text>
+  <text x="450" y="174" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#7a3f00">causal attention</text>
+  <rect x="365" y="205" width="170" height="46" rx="10" fill="#fff4e6" stroke="#e07000" stroke-width="3"/>
+  <text x="450" y="234" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7a3f00">past tokens visible</text>
+  <text x="450" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#7a3f00">Used for next-token</text>
+  <text x="450" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#7a3f00">generation</text>
+  <text x="450" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#7a3f00">example: GPT</text>
+  <rect x="602" y="105" width="245" height="282" rx="18" fill="white" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="725" y="143" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#0d5c25">Encoder-Decoder</text>
+  <text x="725" y="174" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#0d5c25">source plus target</text>
+  <rect x="640" y="205" width="170" height="46" rx="10" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="3"/>
+  <text x="725" y="234" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0d5c25">cross-attention</text>
+  <text x="725" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#0d5c25">Used for translation,</text>
+  <text x="725" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#0d5c25">summarization, seq2seq</text>
+  <text x="725" y="354" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#0d5c25">original Transformer</text>
+</svg>

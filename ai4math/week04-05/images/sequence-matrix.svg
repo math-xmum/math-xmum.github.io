@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-label="Sequence as a matrix">
+  <rect width="900" height="500" rx="26" fill="#f7fbff"/>
+  <text x="450" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">A Sequence Becomes a Matrix</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0066cc"/></marker>
+  </defs>
+  <rect x="58" y="118" width="180" height="238" rx="18" fill="white" stroke="#0066cc" stroke-width="4"/>
+  <text x="148" y="154" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#003366">tokens</text>
+  <rect x="88" y="184" width="120" height="38" rx="9" fill="#eef5ff" stroke="#0066cc" stroke-width="2"/><text x="148" y="209" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">The</text>
+  <rect x="88" y="229" width="120" height="38" rx="9" fill="#eef5ff" stroke="#0066cc" stroke-width="2"/><text x="148" y="254" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">cat</text>
+  <rect x="88" y="274" width="120" height="38" rx="9" fill="#eef5ff" stroke="#0066cc" stroke-width="2"/><text x="148" y="299" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">sat</text>
+  <rect x="88" y="319" width="120" height="38" rx="9" fill="#eef5ff" stroke="#0066cc" stroke-width="2"/><text x="148" y="344" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">.</text>
+  <path d="M238 238 H300" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="315" y="103" width="270" height="285" rx="18" fill="white" stroke="#003366" stroke-width="4"/>
+  <text x="450" y="138" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#003366">X: N x D</text>
+  <text x="450" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#003366">rows = positions, columns = features</text>
+  <g stroke="#0066cc" stroke-width="2">
+    <line x1="362" y1="198" x2="538" y2="198"/><line x1="362" y1="238" x2="538" y2="238"/><line x1="362" y1="278" x2="538" y2="278"/><line x1="362" y1="318" x2="538" y2="318"/>
+    <line x1="362" y1="358" x2="538" y2="358"/><line x1="362" y1="198" x2="362" y2="358"/><line x1="406" y1="198" x2="406" y2="358"/><line x1="450" y1="198" x2="450" y2="358"/><line x1="494" y1="198" x2="494" y2="358"/><line x1="538" y1="198" x2="538" y2="358"/>
+  </g>
+  <text x="343" y="224" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#003366">x1</text>
+  <text x="343" y="264" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#003366">x2</text>
+  <text x="343" y="304" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#003366">x3</text>
+  <text x="343" y="344" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#003366">x4</text>
+  <path d="M585 238 H650" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="665" y="132" width="180" height="208" rx="18" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="755" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0d5c25">Transformer</text>
+  <text x="755" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#0d5c25">layer</text>
+  <text x="755" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#0d5c25">same shape out</text>
+  <text x="755" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#0d5c25">N x D</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-label="Context-dependent token representation">
+  <rect width="900" height="500" rx="26" fill="#f7fbff"/>
+  <text x="450" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">One Token, Different Contexts</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0066cc"/></marker>
+  </defs>
+  <rect x="60" y="105" width="360" height="150" rx="18" fill="white" stroke="#0066cc" stroke-width="4"/>
+  <text x="240" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#003366">Context A</text>
+  <rect x="92" y="166" width="74" height="48" rx="10" fill="#eef5ff" stroke="#0066cc" stroke-width="3"/>
+  <text x="129" y="197" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">river</text>
+  <rect x="180" y="166" width="82" height="48" rx="10" fill="#fff4e6" stroke="#e07000" stroke-width="3"/>
+  <text x="221" y="197" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#7a3f00">bank</text>
+  <rect x="276" y="166" width="100" height="48" rx="10" fill="#eef5ff" stroke="#0066cc" stroke-width="3"/>
+  <text x="326" y="197" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">flooded</text>
+  <rect x="92" y="295" width="328" height="92" rx="18" fill="#e6f0ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="256" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#003366">contextual vector for "bank"</text>
+  <text x="256" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">shore, water, erosion</text>
+  <path d="M221 214 V287" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="480" y="105" width="360" height="150" rx="18" fill="white" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="660" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0d5c25">Context B</text>
+  <rect x="505" y="166" width="92" height="48" rx="10" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="3"/>
+  <text x="551" y="197" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#0d5c25">central</text>
+  <rect x="611" y="166" width="82" height="48" rx="10" fill="#fff4e6" stroke="#e07000" stroke-width="3"/>
+  <text x="652" y="197" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#7a3f00">bank</text>
+  <rect x="707" y="166" width="98" height="48" rx="10" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="3"/>
+  <text x="756" y="197" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#0d5c25">loan</text>
+  <rect x="480" y="295" width="328" height="92" rx="18" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="644" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0d5c25">contextual vector for "bank"</text>
+  <text x="644" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#0d5c25">money, account, credit</text>
+  <path d="M652 214 V287" stroke="#1a8a3a" stroke-width="5" marker-end="url(#arrow)"/>
+</svg>
