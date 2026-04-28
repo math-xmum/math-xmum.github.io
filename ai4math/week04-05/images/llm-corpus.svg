@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-label="LLM language corpus and preprocessing">
+  <rect width="900" height="500" rx="26" fill="#f7fbff"/>
+  <text x="450" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">Language Data for Pretraining</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0066cc"/></marker></defs>
+  <rect x="55" y="105" width="145" height="86" rx="14" fill="#e6f0ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="128" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#003366">web</text>
+  <text x="128" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">documents</text>
+  <rect x="55" y="220" width="145" height="86" rx="14" fill="#fff4e6" stroke="#e07000" stroke-width="4"/>
+  <text x="128" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#7a3f00">books</text>
+  <text x="128" y="281" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#7a3f00">articles</text>
+  <rect x="55" y="335" width="145" height="86" rx="14" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="128" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#0d5c25">code</text>
+  <text x="128" y="396" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#0d5c25">examples</text>
+  <path d="M205 148 H285 M205 263 H285 M205 378 H285" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="300" y="172" width="210" height="180" rx="18" fill="white" stroke="#003366" stroke-width="4"/>
+  <text x="405" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#003366">preprocess</text>
+  <text x="405" y="252" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">deduplicate</text>
+  <text x="405" y="282" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">filter</text>
+  <text x="405" y="312" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">format</text>
+  <path d="M510 262 H590" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="605" y="172" width="240" height="180" rx="18" fill="#eef5ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="725" y="214" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#003366">token stream</text>
+  <text x="725" y="254" text-anchor="middle" font-family="Menlo, monospace" font-size="18" fill="#003366">[1284, 42, 915, ...]</text>
+  <text x="725" y="294" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">training examples are</text>
+  <text x="725" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">made from this stream</text>
+  <text x="450" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#003366">The model is trained on text patterns, not by being handed a database of true facts.</text>
+</svg>

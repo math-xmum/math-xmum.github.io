@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 500" role="img" aria-label="Coding agent workflow diagram">
+  <rect width="880" height="500" rx="24" fill="#f7fbff"/>
+  <text x="440" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">Coding Agent Workflow</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0066cc"/></marker></defs>
+  <rect x="70" y="105" width="190" height="86" rx="14" fill="#e6f0ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="165" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#003366">user task</text>
+  <text x="165" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">fix, add, explain</text>
+  <path d="M260 148 H330" stroke="#0066cc" stroke-width="6" marker-end="url(#arrow)"/>
+  <rect x="340" y="105" width="200" height="86" rx="14" fill="#fff4e6" stroke="#e07000" stroke-width="4"/>
+  <text x="440" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#7a3f00">LLM planner</text>
+  <text x="440" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#7a3f00">choose next action</text>
+  <path d="M540 148 H610" stroke="#0066cc" stroke-width="6" marker-end="url(#arrow)"/>
+  <rect x="620" y="105" width="190" height="86" rx="14" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="715" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#0d5c25">tools</text>
+  <text x="715" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#0d5c25">read, edit, test</text>
+  <rect x="110" y="280" width="190" height="86" rx="14" fill="white" stroke="#003366" stroke-width="4"/>
+  <text x="205" y="314" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#003366">codebase</text>
+  <text x="205" y="342" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">files and context</text>
+  <rect x="345" y="280" width="190" height="86" rx="14" fill="white" stroke="#003366" stroke-width="4"/>
+  <text x="440" y="314" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#003366">terminal</text>
+  <text x="440" y="342" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">commands, tests</text>
+  <rect x="580" y="280" width="190" height="86" rx="14" fill="white" stroke="#003366" stroke-width="4"/>
+  <text x="675" y="314" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#003366">patch</text>
+  <text x="675" y="342" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">reviewable diff</text>
+  <path d="M715 191 V240 H205 V273" stroke="#0066cc" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
+  <path d="M715 191 V240 H440 V273" stroke="#0066cc" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
+  <path d="M715 191 V240 H675 V273" stroke="#0066cc" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
+  <path d="M440 366 V414 H440 V198" stroke="#0066cc" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
+  <text x="440" y="444" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#003366">The harness controls tools, permissions, logs, and stopping conditions.</text>
+</svg>

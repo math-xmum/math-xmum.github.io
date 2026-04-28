@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="AI proof reviewer diagram">
+  <rect width="800" height="500" rx="28" fill="#f7fbff"/>
+  <text x="400" y="54" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">AI Proof Reviewer</text>
+  <rect x="95" y="105" width="270" height="300" rx="16" fill="white" stroke="#0066cc" stroke-width="4"/>
+  <text x="230" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#003366">proof draft</text>
+  <line x1="135" y1="185" x2="325" y2="185" stroke="#9bbcff" stroke-width="8" stroke-linecap="round"/>
+  <line x1="135" y1="225" x2="300" y2="225" stroke="#9bbcff" stroke-width="8" stroke-linecap="round"/>
+  <line x1="135" y1="265" x2="325" y2="265" stroke="#ffd39c" stroke-width="8" stroke-linecap="round"/>
+  <line x1="135" y1="305" x2="285" y2="305" stroke="#9bbcff" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="322" cy="262" r="22" fill="#fff4e6" stroke="#e07000" stroke-width="4"/>
+  <text x="322" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#7a3f00">?</text>
+  <rect x="455" y="128" width="250" height="76" rx="14" fill="#e6f0ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="580" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#003366">gap detection</text>
+  <rect x="455" y="224" width="250" height="76" rx="14" fill="#fff4e6" stroke="#e07000" stroke-width="4"/>
+  <text x="580" y="272" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#7a3f00">counterexample?</text>
+  <rect x="455" y="320" width="250" height="76" rx="14" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="580" y="368" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0d5c25">repair hint</text>
+</svg>

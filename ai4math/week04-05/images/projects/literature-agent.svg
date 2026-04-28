@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Literature agent knowledge map diagram">
+  <rect width="800" height="500" rx="28" fill="#f7fbff"/>
+  <text x="400" y="54" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">Literature Agent</text>
+  <rect x="75" y="115" width="155" height="90" rx="12" fill="white" stroke="#0066cc" stroke-width="4"/>
+  <text x="153" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#003366">paper A</text>
+  <rect x="75" y="245" width="155" height="90" rx="12" fill="white" stroke="#0066cc" stroke-width="4"/>
+  <text x="153" y="298" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#003366">paper B</text>
+  <rect x="570" y="115" width="155" height="90" rx="12" fill="white" stroke="#0066cc" stroke-width="4"/>
+  <text x="648" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#003366">paper C</text>
+  <rect x="570" y="245" width="155" height="90" rx="12" fill="white" stroke="#0066cc" stroke-width="4"/>
+  <text x="648" y="298" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#003366">paper D</text>
+  <circle cx="400" cy="150" r="44" fill="#e6f0ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="400" y="156" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#003366">definition</text>
+  <circle cx="335" cy="275" r="44" fill="#fff4e6" stroke="#e07000" stroke-width="4"/>
+  <text x="335" y="281" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#7a3f00">theorem</text>
+  <circle cx="475" cy="275" r="44" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="475" y="281" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#0d5c25">citation</text>
+  <path d="M230 160 H356 M230 290 H291 M444 150 H570 M519 275 H570 M379 190 L352 234 M421 190 L458 234 M379 275 H431" stroke="#0066cc" stroke-width="4" fill="none"/>
+  <text x="400" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#003366">Output: a small, auditable map of definitions and dependencies.</text>
+</svg>

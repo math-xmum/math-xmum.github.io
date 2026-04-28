@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-label="QKV recommendation analogy">
+  <rect width="900" height="500" rx="26" fill="#f7fbff"/>
+  <text x="450" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">Q/K/V Analogy: Recommendation Systems</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0066cc"/></marker></defs>
+  <rect x="55" y="120" width="215" height="112" rx="16" fill="#e6f0ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="162" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#003366">Query</text>
+  <text x="162" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">what the user wants</text>
+  <text x="162" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#003366">"math, sci-fi, calm"</text>
+  <path d="M270 176 H335" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="350" y="92" width="220" height="168" rx="16" fill="#fff4e6" stroke="#e07000" stroke-width="4"/>
+  <text x="460" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#7a3f00">Keys</text>
+  <text x="460" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7a3f00">item descriptors</text>
+  <text x="460" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7a3f00">Amazon product tags</text>
+  <text x="460" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7a3f00">Netflix genres</text>
+  <text x="460" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7a3f00">Douban topics</text>
+  <path d="M570 176 H635" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="650" y="120" width="200" height="112" rx="16" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="750" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0d5c25">Values</text>
+  <text x="750" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#0d5c25">content returned</text>
+  <text x="750" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0d5c25">movie / book / item</text>
+  <rect x="180" y="315" width="540" height="72" rx="16" fill="white" stroke="#003366" stroke-width="4"/>
+  <text x="450" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#003366">compare query with keys</text>
+  <text x="450" y="372" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">use the best-matching keys to weight the values</text>
+  <text x="450" y="448" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#003366">Attention uses the same compare-and-combine idea inside a sequence.</text>
+</svg>

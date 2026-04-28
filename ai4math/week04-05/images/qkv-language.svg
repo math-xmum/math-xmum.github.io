@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-label="QKV in language model">
+  <rect width="900" height="500" rx="26" fill="#f7fbff"/>
+  <text x="450" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">Q/K/V Inside a Transformer</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0066cc"/></marker></defs>
+  <rect x="85" y="115" width="170" height="82" rx="14" fill="white" stroke="#0066cc" stroke-width="4"/>
+  <text x="170" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#003366">token vector</text>
+  <text x="170" y="176" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">at one position</text>
+  <path d="M255 156 H325" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="340" y="85" width="175" height="58" rx="12" fill="#e6f0ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="428" y="121" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#003366">Query Q</text>
+  <rect x="340" y="160" width="175" height="58" rx="12" fill="#fff4e6" stroke="#e07000" stroke-width="4"/>
+  <text x="428" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#7a3f00">Key K</text>
+  <rect x="340" y="235" width="175" height="58" rx="12" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="428" y="271" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0d5c25">Value V</text>
+  <path d="M515 114 H595 M515 189 H595 M515 264 H595" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="610" y="110" width="215" height="178" rx="16" fill="#eef5ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="718" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#003366">attention</text>
+  <text x="718" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">Q asks what to use</text>
+  <text x="718" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">K says what is available</text>
+  <text x="718" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">V carries the content</text>
+  <rect x="175" y="350" width="550" height="70" rx="16" fill="white" stroke="#003366" stroke-width="4"/>
+  <text x="450" y="379" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#003366">The Q, K, V vectors are learned linear projections of the token vector.</text>
+  <text x="450" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">They are not hand-written features.</text>
+</svg>

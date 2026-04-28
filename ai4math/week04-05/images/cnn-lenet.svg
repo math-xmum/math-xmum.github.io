@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-label="Convolutional neural network architecture">
+  <rect width="900" height="360" rx="24" fill="#f7fbff"/>
+  <text x="450" y="44" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#003366">CNN / LeNet-Style Architecture</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0066cc"/></marker>
+  </defs>
+  <rect x="60" y="125" width="95" height="110" rx="10" fill="white" stroke="#0066cc" stroke-width="4"/>
+  <text x="108" y="173" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#003366">image</text>
+  <text x="108" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#003366">pixels</text>
+  <path d="M155 180 H205" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="215" y="100" width="55" height="160" rx="8" fill="#e6f0ff" stroke="#0066cc" stroke-width="4"/>
+  <rect x="238" y="112" width="55" height="160" rx="8" fill="#e6f0ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="254" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">conv</text>
+  <path d="M293 180 H343" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="355" y="120" width="48" height="120" rx="8" fill="#fff4e6" stroke="#e07000" stroke-width="4"/>
+  <rect x="375" y="130" width="48" height="120" rx="8" fill="#fff4e6" stroke="#e07000" stroke-width="4"/>
+  <text x="389" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#7a3f00">pool</text>
+  <path d="M423 180 H473" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="485" y="105" width="50" height="150" rx="8" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="4"/>
+  <rect x="506" y="115" width="50" height="150" rx="8" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="4"/>
+  <rect x="527" y="125" width="50" height="150" rx="8" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="531" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#0d5c25">features</text>
+  <path d="M577 180 H630" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <circle cx="665" cy="140" r="14" fill="#eef5ff" stroke="#0066cc" stroke-width="3"/>
+  <circle cx="665" cy="180" r="14" fill="#eef5ff" stroke="#0066cc" stroke-width="3"/>
+  <circle cx="665" cy="220" r="14" fill="#eef5ff" stroke="#0066cc" stroke-width="3"/>
+  <circle cx="725" cy="160" r="14" fill="#eef5ff" stroke="#0066cc" stroke-width="3"/>
+  <circle cx="725" cy="200" r="14" fill="#eef5ff" stroke="#0066cc" stroke-width="3"/>
+  <path d="M679 140 L711 160 M679 180 L711 160 M679 180 L711 200 M679 220 L711 200" stroke="#0066cc" stroke-width="3"/>
+  <text x="695" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">classifier</text>
+  <path d="M739 180 H785" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="795" y="138" width="64" height="84" rx="12" fill="#003366"/>
+  <text x="827" y="172" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="white">0-9</text>
+  <text x="827" y="199" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="white">digit</text>
+</svg>

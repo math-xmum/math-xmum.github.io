@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-label="SFT and RLHF training pipeline">
+  <rect width="900" height="500" rx="26" fill="#f7fbff"/>
+  <text x="450" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">After Pretraining: SFT and RLHF</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0066cc"/></marker></defs>
+  <rect x="55" y="120" width="190" height="96" rx="16" fill="#e6f0ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="150" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#003366">pretrained</text>
+  <text x="150" y="183" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">next-token model</text>
+  <path d="M245 168 H315" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="330" y="120" width="190" height="96" rx="16" fill="#fff4e6" stroke="#e07000" stroke-width="4"/>
+  <text x="425" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#7a3f00">SFT</text>
+  <text x="425" y="183" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#7a3f00">imitate good responses</text>
+  <path d="M520 168 H590" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="605" y="120" width="235" height="96" rx="16" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="722" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#0d5c25">preference tuning</text>
+  <text x="722" y="183" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#0d5c25">reward model + RL step</text>
+  <rect x="120" y="305" width="230" height="92" rx="16" fill="white" stroke="#003366" stroke-width="4"/>
+  <text x="235" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#003366">SFT data</text>
+  <text x="235" y="368" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">instruction → ideal answer</text>
+  <rect x="420" y="305" width="360" height="92" rx="16" fill="white" stroke="#003366" stroke-width="4"/>
+  <text x="600" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#003366">preference data</text>
+  <text x="600" y="368" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">answer A is better than answer B</text>
+  <text x="450" y="458" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#003366">These stages shape behavior; they do not turn the model into a theorem prover or truth oracle.</text>
+</svg>

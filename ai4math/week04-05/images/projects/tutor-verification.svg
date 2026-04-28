@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Tutor with verification diagram">
+  <rect width="800" height="500" rx="28" fill="#f7fbff"/>
+  <text x="400" y="54" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">Tutor with Verification</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0066cc"/></marker></defs>
+  <rect x="70" y="130" width="170" height="86" rx="14" fill="#e6f0ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="155" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#003366">student</text>
+  <text x="155" y="193" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">question</text>
+  <path d="M240 173 H315" stroke="#0066cc" stroke-width="6" marker-end="url(#arrow)"/>
+  <rect x="325" y="130" width="170" height="86" rx="14" fill="#fff4e6" stroke="#e07000" stroke-width="4"/>
+  <text x="410" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#7a3f00">hint</text>
+  <text x="410" y="193" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7a3f00">agent</text>
+  <path d="M495 173 H570" stroke="#0066cc" stroke-width="6" marker-end="url(#arrow)"/>
+  <rect x="580" y="130" width="150" height="86" rx="14" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="655" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#0d5c25">verifier</text>
+  <text x="655" y="193" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#0d5c25">check</text>
+  <rect x="210" y="310" width="380" height="76" rx="14" fill="white" stroke="#003366" stroke-width="4"/>
+  <text x="400" y="341" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#003366">feedback policy</text>
+  <text x="400" y="369" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">helpful hints, no hallucinated solution</text>
+  <path d="M655 216 V348 H598" stroke="#0066cc" stroke-width="6" fill="none" marker-end="url(#arrow)"/>
+  <path d="M210 348 H155 V223" stroke="#0066cc" stroke-width="6" fill="none" marker-end="url(#arrow)"/>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-label="Attention weights diagram">
+  <rect width="900" height="500" rx="26" fill="#f7fbff"/>
+  <text x="450" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">Attention: Compare, Weight, Combine</text>
+  <rect x="90" y="112" width="110" height="54" rx="12" fill="#eef5ff" stroke="#0066cc" stroke-width="3"/><text x="145" y="146" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#003366">The</text>
+  <rect x="215" y="112" width="110" height="54" rx="12" fill="#fff4e6" stroke="#e07000" stroke-width="3"/><text x="270" y="146" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#7a3f00">book</text>
+  <rect x="340" y="112" width="110" height="54" rx="12" fill="#eef5ff" stroke="#0066cc" stroke-width="3"/><text x="395" y="146" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#003366">was</text>
+  <rect x="465" y="112" width="110" height="54" rx="12" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="3"/><text x="520" y="146" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#0d5c25">old</text>
+  <rect x="590" y="112" width="110" height="54" rx="12" fill="#eef5ff" stroke="#0066cc" stroke-width="3"/><text x="645" y="146" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#003366">.</text>
+  <line x1="520" y1="175" x2="270" y2="250" stroke="#e07000" stroke-width="8" stroke-linecap="round"/>
+  <line x1="520" y1="175" x2="395" y2="250" stroke="#0066cc" stroke-width="4" stroke-linecap="round"/>
+  <line x1="520" y1="175" x2="145" y2="250" stroke="#0066cc" stroke-width="2" stroke-linecap="round"/>
+  <rect x="120" y="270" width="660" height="74" rx="16" fill="white" stroke="#003366" stroke-width="4"/>
+  <text x="450" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#003366">For the position "old", attention can put high weight on "book".</text>
+  <text x="450" y="328" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">The new vector for "old" becomes a weighted mixture of useful previous content.</text>
+  <rect x="190" y="380" width="520" height="64" rx="14" fill="#eef5ff" stroke="#0066cc" stroke-width="3"/>
+  <text x="450" y="407" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">scores from Q·K give attention weights</text>
+  <text x="450" y="432" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">the output is a weighted sum of V</text>
+</svg>
