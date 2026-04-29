@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#ffffff"/>
+  <text x="450" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">Git: Three Local States + One Remote</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="60" y="130" width="180" height="210" rx="16" fill="#fff4e6" stroke="#e07000" stroke-width="3"/>
+    <text x="150" y="180" font-size="24" font-weight="700" fill="#7a3f00">Working Tree</text>
+    <text x="150" y="220" font-size="18" fill="#444">Files you edit</text>
+    <text x="150" y="255" font-size="18" fill="#444">Not yet saved</text>
+    <text x="150" y="290" font-size="18" fill="#444">into history</text>
+    <rect x="270" y="130" width="180" height="210" rx="16" fill="#e6f0ff" stroke="#0066cc" stroke-width="3"/>
+    <text x="360" y="180" font-size="24" font-weight="700" fill="#003366">Staging Area</text>
+    <text x="360" y="220" font-size="18" fill="#444">Chosen changes</text>
+    <text x="360" y="255" font-size="18" fill="#444">for the next</text>
+    <text x="360" y="290" font-size="18" fill="#444">commit</text>
+    <rect x="480" y="130" width="180" height="210" rx="16" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="3"/>
+    <text x="570" y="180" font-size="24" font-weight="700" fill="#0f5f28">Local Repo</text>
+    <text x="570" y="220" font-size="18" fill="#444">Commit history</text>
+    <text x="570" y="255" font-size="18" fill="#444">on your laptop</text>
+    <rect x="690" y="130" width="150" height="210" rx="16" fill="#f8f8ff" stroke="#5b5fc7" stroke-width="3"/>
+    <text x="765" y="180" font-size="24" font-weight="700" fill="#33338a">Remote</text>
+    <text x="765" y="220" font-size="18" fill="#444">GitHub copy</text>
+    <text x="765" y="255" font-size="18" fill="#444">shared by</text>
+    <text x="765" y="290" font-size="18" fill="#444">the team</text>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#003366" text-anchor="middle">
+    <path d="M240 235 L270 235" stroke="#0066cc" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="255" y="218">add</text>
+    <path d="M450 235 L480 235" stroke="#0066cc" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="465" y="218">commit</text>
+    <path d="M660 235 L690 235" stroke="#0066cc" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="675" y="218">push</text>
+    <path d="M690 310 L660 310" stroke="#1a8a3a" stroke-width="4" marker-end="url(#arrow2)"/>
+    <text x="675" y="338" fill="#0f5f28">pull</text>
+  </g>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0066cc"/></marker>
+    <marker id="arrow2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#1a8a3a"/></marker>
+  </defs>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#ffffff"/>
+  <text x="450" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">Simple Project Board</text>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(55 95)">
+      <rect width="175" height="365" rx="12" fill="#f8f8ff" stroke="#0066cc" stroke-width="3"/>
+      <text x="87.5" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#003366">Backlog</text>
+      <rect x="18" y="72" width="139" height="58" rx="8" fill="#ffffff" stroke="#d4ddff" stroke-width="2"/>
+      <text x="87.5" y="106" text-anchor="middle" font-size="16" fill="#333">read 3 papers</text>
+      <rect x="18" y="148" width="139" height="58" rx="8" fill="#ffffff" stroke="#d4ddff" stroke-width="2"/>
+      <text x="87.5" y="182" text-anchor="middle" font-size="16" fill="#333">collect data</text>
+    </g>
+    <g transform="translate(265 95)">
+      <rect width="175" height="365" rx="12" fill="#fff4e6" stroke="#e07000" stroke-width="3"/>
+      <text x="87.5" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#7a3f00">Doing</text>
+      <rect x="18" y="72" width="139" height="58" rx="8" fill="#ffffff" stroke="#f1b25a" stroke-width="2"/>
+      <text x="87.5" y="106" text-anchor="middle" font-size="16" fill="#333">baseline run</text>
+    </g>
+    <g transform="translate(475 95)">
+      <rect width="175" height="365" rx="12" fill="#e6f0ff" stroke="#0066cc" stroke-width="3"/>
+      <text x="87.5" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#003366">Review</text>
+      <rect x="18" y="72" width="139" height="58" rx="8" fill="#ffffff" stroke="#d4ddff" stroke-width="2"/>
+      <text x="87.5" y="98" text-anchor="middle" font-size="15" fill="#333">PR: eval</text>
+      <text x="87.5" y="118" text-anchor="middle" font-size="15" fill="#333">script</text>
+    </g>
+    <g transform="translate(685 95)">
+      <rect width="160" height="365" rx="12" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="3"/>
+      <text x="80" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#0f5f28">Done</text>
+      <rect x="15" y="72" width="130" height="58" rx="8" fill="#ffffff" stroke="#9be0a5" stroke-width="2"/>
+      <text x="80" y="106" text-anchor="middle" font-size="16" fill="#333">repo setup</text>
+    </g>
+  </g>
+</svg>

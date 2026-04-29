@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#ffffff"/>
+  <text x="450" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">A Coding Agent Loop</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <circle cx="450" cy="260" r="92" fill="#e6f0ff" stroke="#0066cc" stroke-width="4"/>
+    <text x="450" y="248" font-size="25" font-weight="700" fill="#003366">LLM</text>
+    <text x="450" y="279" font-size="18" fill="#333">chooses next action</text>
+    <rect x="70" y="110" width="190" height="82" rx="14" fill="#fff4e6" stroke="#e07000" stroke-width="3"/>
+    <text x="165" y="143" font-size="22" font-weight="700" fill="#7a3f00">User Goal</text>
+    <text x="165" y="170" font-size="17" fill="#333">issue or prompt</text>
+    <rect x="640" y="110" width="190" height="82" rx="14" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="3"/>
+    <text x="735" y="143" font-size="22" font-weight="700" fill="#0f5f28">Tool Call</text>
+    <text x="735" y="170" font-size="17" fill="#333">read / edit / run</text>
+    <rect x="640" y="330" width="190" height="82" rx="14" fill="#f8f8ff" stroke="#5b5fc7" stroke-width="3"/>
+    <text x="735" y="363" font-size="22" font-weight="700" fill="#33338a">Observation</text>
+    <text x="735" y="390" font-size="17" fill="#333">files, tests, errors</text>
+    <rect x="70" y="330" width="190" height="82" rx="14" fill="#e6f0ff" stroke="#0066cc" stroke-width="3"/>
+    <text x="165" y="363" font-size="22" font-weight="700" fill="#003366">Response</text>
+    <text x="165" y="390" font-size="17" fill="#333">summary + diff</text>
+  </g>
+  <g stroke="#0066cc" stroke-width="4" fill="none" marker-end="url(#arrow)">
+    <path d="M260 151 C315 160 360 190 390 220"/>
+    <path d="M510 220 C555 170 590 150 640 151"/>
+    <path d="M735 192 C780 235 780 285 735 330"/>
+    <path d="M640 371 C585 365 535 330 510 300"/>
+    <path d="M390 300 C345 350 310 370 260 371"/>
+  </g>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0066cc"/></marker>
+  </defs>
+</svg>

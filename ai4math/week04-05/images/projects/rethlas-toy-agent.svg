@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Rethlas style toy agent diagram">
+  <rect width="800" height="500" rx="28" fill="#f7fbff"/>
+  <text x="400" y="54" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">Rethlas-Style Toy Agent</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0066cc"/></marker></defs>
+  <rect x="70" y="125" width="150" height="82" rx="14" fill="#e6f0ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="145" y="157" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#003366">informal</text>
+  <text x="145" y="184" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#003366">strategy</text>
+  <rect x="250" y="125" width="150" height="82" rx="14" fill="#fff4e6" stroke="#e07000" stroke-width="4"/>
+  <text x="325" y="157" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#7a3f00">lemma</text>
+  <text x="325" y="184" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#7a3f00">retrieval</text>
+  <rect x="430" y="125" width="150" height="82" rx="14" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="505" y="157" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0d5c25">Lean</text>
+  <text x="505" y="184" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#0d5c25">skeleton</text>
+  <rect x="610" y="125" width="120" height="82" rx="14" fill="white" stroke="#003366" stroke-width="4"/>
+  <text x="670" y="157" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#003366">verify</text>
+  <text x="670" y="184" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#003366">or fail</text>
+  <path d="M220 166 H243 M400 166 H423 M580 166 H603" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="150" y="300" width="500" height="84" rx="14" fill="#eef5ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="400" y="334" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#003366">agent log</text>
+  <text x="400" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">strategies tried, lemmas used, verification failures</text>
+  <path d="M670 207 V342 H657" stroke="#0066cc" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
+</svg>
