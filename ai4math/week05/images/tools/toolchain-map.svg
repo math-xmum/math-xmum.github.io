@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#ffffff"/>
+  <text x="450" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">Toolchain Map</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <rect x="80" y="120" width="210" height="240" rx="18" fill="#e6f0ff" stroke="#0066cc" stroke-width="3"/>
+    <text x="185" y="165" font-size="24" font-weight="700" fill="#003366">GitHub</text>
+    <text x="185" y="210" font-size="18" fill="#333">source control</text>
+    <text x="185" y="245" font-size="18" fill="#333">issues and PRs</text>
+    <text x="185" y="280" font-size="18" fill="#333">project board</text>
+    <rect x="345" y="120" width="210" height="240" rx="18" fill="#fff4e6" stroke="#e07000" stroke-width="3"/>
+    <text x="450" y="165" font-size="24" font-weight="700" fill="#7a3f00">Coding Agent</text>
+    <text x="450" y="210" font-size="18" fill="#333">read repo</text>
+    <text x="450" y="245" font-size="18" fill="#333">edit files</text>
+    <text x="450" y="280" font-size="18" fill="#333">run commands</text>
+    <rect x="610" y="120" width="210" height="240" rx="18" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="3"/>
+    <text x="715" y="165" font-size="24" font-weight="700" fill="#0f5f28">Human Team</text>
+    <text x="715" y="210" font-size="18" fill="#333">choose question</text>
+    <text x="715" y="245" font-size="18" fill="#333">judge correctness</text>
+    <text x="715" y="280" font-size="18" fill="#333">communicate result</text>
+  </g>
+  <g stroke="#0066cc" stroke-width="4" marker-end="url(#arrow)">
+    <path d="M290 240 L345 240"/>
+    <path d="M555 240 L610 240"/>
+  </g>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0066cc"/></marker>
+  </defs>
+</svg>

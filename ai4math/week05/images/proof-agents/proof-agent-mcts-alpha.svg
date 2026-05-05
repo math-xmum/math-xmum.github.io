@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-label="MCTS analogy between AlphaGo and proof agents">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,1 L0,7 L7,4 z" fill="#0b5cad"/>
+    </marker>
+    <style>
+      .title{font:700 31px Arial,sans-serif;fill:#102a43}
+      .head{font:700 21px Arial,sans-serif;fill:#102a43}
+      .text{font:16px Arial,sans-serif;fill:#334e68}
+      .small{font:14px Arial,sans-serif;fill:#526d82}
+      .mono{font:15px Menlo,Consolas,monospace;fill:#0f172a}
+    </style>
+  </defs>
+  <rect width="1200" height="560" fill="#f7fbff"/>
+  <text x="600" y="50" text-anchor="middle" class="title">MCTS: the AlphaGo idea, adapted to proof search</text>
+  <text x="600" y="80" text-anchor="middle" class="text">A learned model proposes promising actions; tree search spends compute on the most useful branches.</text>
+
+  <rect x="70" y="132" width="456" height="286" rx="16" fill="#ffffff" stroke="#2f80ed" stroke-width="3"/>
+  <text x="298" y="170" text-anchor="middle" class="head">AlphaGo</text>
+  <rect x="116" y="206" width="158" height="64" rx="10" fill="#e8f8e8" stroke="#219653" stroke-width="2"/>
+  <text x="195" y="232" text-anchor="middle" class="text">policy net</text>
+  <text x="195" y="254" text-anchor="middle" class="small">move prior</text>
+  <rect x="322" y="206" width="158" height="64" rx="10" fill="#fff4e6" stroke="#f2994a" stroke-width="2"/>
+  <text x="401" y="232" text-anchor="middle" class="text">value net</text>
+  <text x="401" y="254" text-anchor="middle" class="small">position value</text>
+  <rect x="188" y="318" width="220" height="62" rx="10" fill="#f8f8ff" stroke="#6c63ff" stroke-width="2"/>
+  <text x="298" y="344" text-anchor="middle" class="text">MCTS over game states</text>
+  <text x="298" y="366" text-anchor="middle" class="small">select stronger move</text>
+
+  <rect x="674" y="132" width="456" height="286" rx="16" fill="#ffffff" stroke="#0f766e" stroke-width="3"/>
+  <text x="902" y="170" text-anchor="middle" class="head">Proof agent</text>
+  <rect x="720" y="206" width="158" height="64" rx="10" fill="#e8f8e8" stroke="#219653" stroke-width="2"/>
+  <text x="799" y="232" text-anchor="middle" class="text">LLM prior</text>
+  <text x="799" y="254" text-anchor="middle" class="small">tactic or lemma</text>
+  <rect x="926" y="206" width="158" height="64" rx="10" fill="#fff4e6" stroke="#f2994a" stroke-width="2"/>
+  <text x="1005" y="232" text-anchor="middle" class="text">evaluator</text>
+  <text x="1005" y="254" text-anchor="middle" class="small">Lean/critic score</text>
+  <rect x="792" y="318" width="220" height="62" rx="10" fill="#f8f8ff" stroke="#6c63ff" stroke-width="2"/>
+  <text x="902" y="344" text-anchor="middle" class="text">search over proof states</text>
+  <text x="902" y="366" text-anchor="middle" class="small">choose next branch</text>
+
+  <g stroke="#0b5cad" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M298 270 V310"/>
+    <path d="M401 270 V310"/>
+    <path d="M902 270 V310"/>
+    <path d="M1005 270 V310"/>
+  </g>
+
+  <rect x="104" y="452" width="992" height="56" rx="14" fill="#eaf4ff" stroke="#7aa7e8" stroke-width="3"/>
+  <text x="600" y="478" text-anchor="middle" class="text">The analogy is real but not exact: proof has no opponent, a huge action space, and sparse terminal rewards from the verifier.</text>
+  <text x="600" y="500" text-anchor="middle" class="small">In formal proving, a failed branch can still produce useful lemmas, errors, or retrieval hints.</text>
+</svg>

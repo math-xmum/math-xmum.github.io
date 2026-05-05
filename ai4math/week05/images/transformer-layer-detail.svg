@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-label="Transformer layer detail">
+  <rect width="900" height="500" rx="26" fill="#f7fbff"/>
+  <text x="450" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">One Transformer Layer</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0066cc"/></marker>
+  </defs>
+  <rect x="42" y="175" width="108" height="70" rx="14" fill="white" stroke="#0066cc" stroke-width="4"/>
+  <text x="96" y="203" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#003366">X</text>
+  <text x="96" y="229" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#003366">N x D</text>
+  <path d="M150 210 H202" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="220" y="150" width="156" height="120" rx="16" fill="#fff4e6" stroke="#e07000" stroke-width="4"/>
+  <text x="298" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#7a3f00">multi-head</text>
+  <text x="298" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#7a3f00">self-attention</text>
+  <text x="298" y="247" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#7a3f00">mix positions</text>
+  <path d="M376 210 H428" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="445" y="150" width="116" height="120" rx="16" fill="#e6f0ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="503" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#003366">add</text>
+  <text x="503" y="217" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#003366">and</text>
+  <text x="503" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#003366">norm</text>
+  <path d="M561 210 H613" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="630" y="150" width="120" height="120" rx="16" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="690" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0d5c25">MLP</text>
+  <text x="690" y="219" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0d5c25">same network</text>
+  <text x="690" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#0d5c25">per token</text>
+  <path d="M750 210 H786" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="802" y="150" width="62" height="120" rx="16" fill="#e6f0ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="833" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#003366">add</text>
+  <text x="833" y="217" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#003366">and</text>
+  <text x="833" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#003366">norm</text>
+  <path d="M96 175 V104 H503 V142" stroke="#0066cc" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <text x="278" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#003366">residual path</text>
+  <path d="M503 270 V342 H833 V278" stroke="#0066cc" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <text x="668" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#003366">second residual path</text>
+  <rect x="190" y="402" width="520" height="56" rx="14" fill="white" stroke="#003366" stroke-width="3"/>
+  <text x="450" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#003366">Layer input and output have the same N x D shape.</text>
+  <text x="450" y="449" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#003366">Exact ordering of normalization differs across modern variants.</text>
+</svg>
