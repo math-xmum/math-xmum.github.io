@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 1: Proof-Agent Natural-Language Proof</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      color: #172033;
+      background: #f3f6fb;
+    }
+    .page {
+      max-width: 880px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+    }
+    .panel {
+      background: #fff;
+      border: 1px solid #d8e2ef;
+      border-radius: 14px;
+      padding: 42px;
+      box-shadow: 0 16px 40px rgba(19, 45, 80, 0.10);
+    }
+    .back {
+      display: inline-block;
+      margin-bottom: 18px;
+      color: #0b63b6;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .back:hover { text-decoration: underline; }
+    h1 {
+      margin: 0 0 18px;
+      color: #003366;
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      line-height: 1.12;
+    }
+    h2 {
+      margin-top: 34px;
+      color: #003366;
+      font-size: 1.35rem;
+    }
+    p { margin: 0 0 16px; }
+    ul, ol { padding-left: 1.45rem; }
+    li { margin: 8px 0; }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      background: #edf3fb;
+      border: 1px solid #d9e6f5;
+      border-radius: 5px;
+      padding: 0.12rem 0.34rem;
+      font-size: 0.94em;
+    }
+    .meta {
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      gap: 8px 14px;
+      margin: 22px 0 30px;
+      padding: 18px;
+      background: #f7fbff;
+      border: 1px solid #d9e8f8;
+      border-radius: 10px;
+    }
+    .meta dt {
+      color: #4c6380;
+      font-weight: 700;
+    }
+    .meta dd { margin: 0; }
+    .download {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 14px;
+      border-radius: 8px;
+      background: #0b63b6;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .download:hover { background: #084d8f; }
+    @media (max-width: 640px) {
+      .panel { padding: 28px 20px; }
+      .meta { grid-template-columns: 1fr; }
+      .meta dt { margin-top: 6px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <a class="back" href="../">Back to AI for Mathematics</a>
+    <article class="panel">
+      <h1>Assignment 1: Proof-Agent Natural-Language Proof</h1>
+
+      <dl class="meta">
+        <dt>Course</dt>
+        <dd>AI for Mathematics (General Elective), Xiamen University Malaysia</dd>
+        <dt>Weight</dt>
+        <dd>20%</dd>
+        <dt>Points</dt>
+        <dd>100</dd>
+        <dt>Due</dt>
+        <dd>Friday, 29 May 2026, 23:59 Malaysia time</dd>
+        <dt>Submission</dt>
+        <dd>Email two files to <code>hoxide@gmail.com</code></dd>
+        <dt>Email subject</dt>
+        <dd><code>[AI4Math XMUM GE] Assignment 1 - &lt;Student Name&gt; - &lt;Student ID&gt;</code></dd>
+      </dl>
+
+      <a class="download" href="assignment01-proof-agent-natural-language-proof.md">Download Markdown</a>
+
+      <h2>Task</h2>
+      <p>Use an agentic coding assistant, such as Codex, Claude, opencode, or openclaw, to obtain, inspect, and launch a proof/proving agent. Rethlas is one good option, but students may use another suitable proof agent if they know how to use it. Choose an interesting mathematical problem that is precise enough for a complete proof, run the proof-agent workflow, and turn the resulting proof blueprint or proof artifact into a readable mathematical PDF.</p>
+
+      <p>The problem should be nontrivial but realistic for this assignment. Suitable examples include a theorem from combinatorics, graph theory, number theory, algebra, analysis, probability, optimization, or another mathematically rigorous area. The proof should be substantial: about 4-5 pages is expected, and a longer proof is welcome if the exposition remains clear.</p>
+
+      <h2>Required Submission Files</h2>
+      <ul>
+        <li><code>blueprint.md</code>: the proof blueprint or proof-search artifact for your problem. If your chosen tool uses another filename, export or rename the main proof artifact as <code>blueprint.md</code>.</li>
+        <li>A PDF file containing the polished mathematical proof.</li>
+      </ul>
+
+      <h2>Expected Workflow</h2>
+      <ol>
+        <li>Formulate a self-contained mathematical problem statement, including all definitions and hypotheses needed by a fresh solver.</li>
+        <li>Ask an agentic coding assistant, such as Codex, Claude, opencode, or openclaw, to obtain or identify a suitable proof/proving agent, inspect the local implementation or documentation, and determine the correct launch procedure.</li>
+        <li>Run the proof generation and verification or checking workflow supported by your chosen tool.</li>
+        <li>Inspect the generated blueprint or proof artifact and any verifier feedback. Repair the problem statement or proof if necessary.</li>
+        <li>Convert the accepted or final blueprint/proof artifact into a clean PDF proof written for a human mathematical reader.</li>
+      </ol>
+
+      <h2>What the PDF Should Contain</h2>
+      <ul>
+        <li>A clear statement of the theorem being proved.</li>
+        <li>Definitions, notation, and assumptions used in the proof.</li>
+        <li>A complete proof, not only a proof sketch.</li>
+      </ul>
+
+      <p>Students should email exactly the two required files, <code>blueprint.md</code> and their proof PDF, to <code>hoxide@gmail.com</code>.</p>
+    </article>
+  </main>
+</body>
+</html>
