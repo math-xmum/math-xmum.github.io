@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#ffffff"/>
+  <text x="450" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">Repository as a Shared Laboratory Notebook</text>
+  <g font-family="Arial, sans-serif" font-size="20">
+    <rect x="215" y="95" width="470" height="340" rx="16" fill="#f8f8ff" stroke="#0066cc" stroke-width="3"/>
+    <text x="450" y="135" text-anchor="middle" font-size="25" font-weight="700" fill="#003366">project-name/</text>
+    <text x="265" y="185" fill="#0f5f28" font-weight="700">README.md</text>
+    <text x="430" y="185" fill="#333">what the project is and how to run it</text>
+    <text x="265" y="225" fill="#0f5f28" font-weight="700">notes/</text>
+    <text x="430" y="225" fill="#333">meeting notes, papers, decisions</text>
+    <text x="265" y="265" fill="#0f5f28" font-weight="700">src/</text>
+    <text x="430" y="265" fill="#333">code used by the project</text>
+    <text x="265" y="305" fill="#0f5f28" font-weight="700">experiments/</text>
+    <text x="430" y="305" fill="#333">scripts, configs, outputs index</text>
+    <text x="265" y="345" fill="#0f5f28" font-weight="700">tests/</text>
+    <text x="430" y="345" fill="#333">small checks for important behavior</text>
+    <text x="265" y="385" fill="#0f5f28" font-weight="700">AGENTS.md</text>
+    <text x="430" y="385" fill="#333">rules for AI assistants</text>
+  </g>
+</svg>

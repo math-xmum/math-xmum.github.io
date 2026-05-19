@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-label="Tokenization flow">
+  <rect width="900" height="500" rx="26" fill="#f7fbff"/>
+  <text x="450" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">What Is a Token?</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0066cc"/></marker></defs>
+  <rect x="70" y="118" width="250" height="120" rx="16" fill="white" stroke="#0066cc" stroke-width="4"/>
+  <text x="195" y="158" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#003366">text</text>
+  <text x="195" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#003366">Prime numbers are useful.</text>
+  <path d="M320 178 H390" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="405" y="96" width="430" height="165" rx="16" fill="#eef5ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="620" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#003366">tokens</text>
+  <g font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#003366">
+    <rect x="435" y="162" width="92" height="44" rx="10" fill="white" stroke="#0066cc" stroke-width="3"/><text x="481" y="190" text-anchor="middle">Prime</text>
+    <rect x="542" y="162" width="98" height="44" rx="10" fill="white" stroke="#0066cc" stroke-width="3"/><text x="591" y="190" text-anchor="middle">numbers</text>
+    <rect x="655" y="162" width="62" height="44" rx="10" fill="white" stroke="#0066cc" stroke-width="3"/><text x="686" y="190" text-anchor="middle">are</text>
+    <rect x="732" y="162" width="76" height="44" rx="10" fill="white" stroke="#0066cc" stroke-width="3"/><text x="770" y="190" text-anchor="middle">useful</text>
+    <rect x="815" y="162" width="34" height="44" rx="10" fill="white" stroke="#0066cc" stroke-width="3"/><text x="832" y="190" text-anchor="middle">.</text>
+  </g>
+  <path d="M620 262 V323" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="280" y="335" width="340" height="82" rx="16" fill="#fff4e6" stroke="#e07000" stroke-width="4"/>
+  <text x="450" y="368" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#7a3f00">token IDs</text>
+  <text x="450" y="398" text-anchor="middle" font-family="Menlo, monospace" font-size="20" fill="#7a3f00">[9221, 4719, 527, 5500, 13]</text>
+  <text x="450" y="458" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#003366">A token can be a word, part of a word, punctuation, or a symbol.</text>
+</svg>
