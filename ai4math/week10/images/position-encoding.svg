@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-label="Position encoding">
+  <rect width="900" height="500" rx="26" fill="#f7fbff"/>
+  <text x="450" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">Attention Needs Position Information</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0066cc"/></marker>
+  </defs>
+  <rect x="62" y="112" width="340" height="124" rx="18" fill="white" stroke="#cc2222" stroke-width="4"/>
+  <text x="232" y="146" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#8a1111">Without position information</text>
+  <rect x="98" y="172" width="86" height="40" rx="9" fill="#fff0f0" stroke="#cc2222" stroke-width="2"/><text x="141" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#8a1111">not</text>
+  <rect x="198" y="172" width="86" height="40" rx="9" fill="#fff0f0" stroke="#cc2222" stroke-width="2"/><text x="241" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#8a1111">good</text>
+  <rect x="298" y="172" width="66" height="40" rx="9" fill="#fff0f0" stroke="#cc2222" stroke-width="2"/><text x="331" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#8a1111">.</text>
+  <text x="232" y="266" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#8a1111">If rows are permuted, outputs permute the same way.</text>
+  <rect x="498" y="112" width="340" height="124" rx="18" fill="white" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="668" y="146" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#0d5c25">With position vectors</text>
+  <rect x="534" y="172" width="86" height="40" rx="9" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="2"/><text x="577" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#0d5c25">not + r1</text>
+  <rect x="634" y="172" width="96" height="40" rx="9" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="2"/><text x="682" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#0d5c25">good + r2</text>
+  <rect x="744" y="172" width="60" height="40" rx="9" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="2"/><text x="774" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#0d5c25">. + r3</text>
+  <text x="668" y="266" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#0d5c25">Order becomes part of the data sent to the model.</text>
+  <rect x="182" y="324" width="536" height="72" rx="16" fill="#e6f0ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="450" y="353" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#003366">input vector at position n = token embedding + position embedding</text>
+  <text x="450" y="381" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">The position embedding may be learned or fixed, such as sinusoidal encodings.</text>
+  <path d="M402 174 H488" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <text x="450" y="456" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">This is why "not good" and "good not" need different internal representations.</text>
+</svg>

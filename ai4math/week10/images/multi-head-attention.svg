@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" role="img" aria-label="Multi-head attention">
+  <rect width="900" height="500" rx="26" fill="#f7fbff"/>
+  <text x="450" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#003366">Multi-Head Attention</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0066cc"/></marker>
+  </defs>
+  <rect x="55" y="205" width="145" height="82" rx="16" fill="white" stroke="#0066cc" stroke-width="4"/>
+  <text x="128" y="239" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#003366">X</text>
+  <text x="128" y="268" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#003366">token matrix</text>
+  <path d="M200 246 H255" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="275" y="94" width="210" height="58" rx="14" fill="#e6f0ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="380" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#003366">head 1: local relation</text>
+  <rect x="275" y="172" width="210" height="58" rx="14" fill="#fff4e6" stroke="#e07000" stroke-width="4"/>
+  <text x="380" y="208" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#7a3f00">head 2: long range</text>
+  <rect x="275" y="250" width="210" height="58" rx="14" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="380" y="286" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0d5c25">head 3: topic cue</text>
+  <rect x="275" y="328" width="210" height="58" rx="14" fill="#eef5ff" stroke="#0066cc" stroke-width="4"/>
+  <text x="380" y="364" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#003366">...</text>
+  <path d="M485 123 C540 150 550 190 590 230" stroke="#0066cc" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M485 201 C535 215 555 225 590 238" stroke="#0066cc" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M485 279 C535 265 555 255 590 250" stroke="#0066cc" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <path d="M485 357 C545 330 560 300 590 265" stroke="#0066cc" stroke-width="4" fill="none" marker-end="url(#arrow)"/>
+  <rect x="610" y="204" width="120" height="86" rx="16" fill="white" stroke="#003366" stroke-width="4"/>
+  <text x="670" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#003366">concat</text>
+  <text x="670" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">heads</text>
+  <path d="M730 247 H780" stroke="#0066cc" stroke-width="5" marker-end="url(#arrow)"/>
+  <rect x="795" y="204" width="60" height="86" rx="16" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="825" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0d5c25">linear</text>
+  <text x="825" y="265" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#0d5c25">map</text>
+  <rect x="154" y="424" width="592" height="44" rx="12" fill="white" stroke="#003366" stroke-width="3"/>
+  <text x="450" y="452" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#003366">The names above are intuition only. Heads are learned components, not hand-coded modules.</text>
+</svg>

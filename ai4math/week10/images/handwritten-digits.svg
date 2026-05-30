@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" role="img" aria-label="Handwritten digit recognition examples">
+  <rect width="900" height="380" rx="24" fill="#f7fbff"/>
+  <text x="450" y="46" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#003366">Handwritten Digit Recognition</text>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#0066cc"/></marker></defs>
+  <rect x="60" y="92" width="270" height="218" rx="16" fill="white" stroke="#0066cc" stroke-width="4"/>
+  <text x="195" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#003366">input images</text>
+  <g font-family="Comic Sans MS, Bradley Hand, cursive" font-size="56" font-weight="700" fill="#1f2937">
+    <rect x="90" y="145" width="58" height="58" rx="8" fill="#f8f8ff" stroke="#9bbcff" stroke-width="3"/><text x="119" y="190" text-anchor="middle">3</text>
+    <rect x="166" y="145" width="58" height="58" rx="8" fill="#f8f8ff" stroke="#9bbcff" stroke-width="3"/><text x="195" y="190" text-anchor="middle">7</text>
+    <rect x="242" y="145" width="58" height="58" rx="8" fill="#f8f8ff" stroke="#9bbcff" stroke-width="3"/><text x="271" y="190" text-anchor="middle">2</text>
+    <rect x="90" y="225" width="58" height="58" rx="8" fill="#f8f8ff" stroke="#9bbcff" stroke-width="3"/><text x="119" y="270" text-anchor="middle">8</text>
+    <rect x="166" y="225" width="58" height="58" rx="8" fill="#f8f8ff" stroke="#9bbcff" stroke-width="3"/><text x="195" y="270" text-anchor="middle">5</text>
+    <rect x="242" y="225" width="58" height="58" rx="8" fill="#f8f8ff" stroke="#9bbcff" stroke-width="3"/><text x="271" y="270" text-anchor="middle">9</text>
+  </g>
+  <path d="M330 201 H395" stroke="#0066cc" stroke-width="6" marker-end="url(#arrow)"/>
+  <rect x="408" y="110" width="190" height="180" rx="16" fill="#fff4e6" stroke="#e07000" stroke-width="4"/>
+  <text x="503" y="154" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#7a3f00">LeNet-5</text>
+  <text x="503" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7a3f00">convolution</text>
+  <text x="503" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7a3f00">pooling</text>
+  <text x="503" y="246" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#7a3f00">classification</text>
+  <path d="M598 201 H663" stroke="#0066cc" stroke-width="6" marker-end="url(#arrow)"/>
+  <rect x="675" y="126" width="160" height="150" rx="16" fill="#e8f8e8" stroke="#1a8a3a" stroke-width="4"/>
+  <text x="755" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#0d5c25">output</text>
+  <text x="755" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#0d5c25">0-9</text>
+  <text x="755" y="246" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#0d5c25">digit label</text>
+  <text x="450" y="342" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#003366">Historical use case: automated reading of handwritten digits on checks and forms.</text>
+</svg>
