@@ -84,15 +84,5 @@ Email these two files to `hoxide@gmail.com` (zip a multi-file project if needed)
 4. Iterate until the file is sorry-free and error-free; then check `#print axioms`.
 5. Write the report.
 
-## Scope and honesty
-
-- A faithful formalization of a **nontrivial but realistic** theorem. It is fine if the
-  theorem you formalize is smaller than your full Assignment 1 proof — fully
-  formalizing even one clean lemma or a self-contained theorem is substantial work.
-- **Do not pad with `sorry`** or hidden `axiom`s; the kernel check and `#print axioms`
-  are how this is verified.
-- The Lean statement must genuinely express your theorem. If in doubt about whether a
-  statement is faithful, explain your choice in the report.
-
 Email exactly your Lean file(s) and `report.pdf` (plus any optional config/links) to
 `hoxide@gmail.com`.
