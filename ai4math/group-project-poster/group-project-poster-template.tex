@@ -1,0 +1,202 @@
+%==============================================================================
+% Group Project Poster Template
+% XMUM AI for Mathematics (General Elective) --- Instructor: Ma Jiajun
+%
+% Compile with:  pdflatex group-project-poster-template.tex
+% Required files (must be in the same folder as this .tex):
+%   - beamerthemesharelatex.sty  (poster theme)
+%   - XMU2.png                   (XMU logo used in the header)
+%==============================================================================
+
+\documentclass[final]{beamer}
+\usepackage[orientation=portrait,
+            scale=2.0       % font scale factor
+           ]{beamerposter}
+\usepackage{amsmath,amsfonts,amsthm,amssymb,mathrsfs}
+\usepackage{graphicx}
+\usepackage{caption,subcaption,float}
+\usepackage{color}
+\usepackage{soul}
+
+% Placeholder colour --- the red text below marks the fields each group
+% should replace. Keep or remove \red{...} as you edit.
+\newcommand{\red}[1]{{\color{red} #1}}
+\newcommand{\blue}[1]{{\color{blue} #1}}
+
+\definecolor{color4}{RGB}{220, 41, 41}
+\definecolor{color5}{RGB}{244, 229, 229}
+
+\geometry{
+  a0paper,
+  hmargin=2.5in
+}
+
+\linespread{1}
+
+%==The poster style============================================================
+\usetheme{sharelatex}
+\usefonttheme{serif}
+\setbeamerfont{title}{shape=\scshape,parent=structure}
+\setbeamerfont{section}{series=\scshape}
+
+%%%%% Math notation shortcuts (adjust freely) %%%%%
+\newcommand{\var}{\mathrm{Var}}
+\newcommand{\supp}{\mathrm{supp}}
+\newcommand{\tr}{\mathrm{tr}}
+
+\begin{document}
+
+%==============================================================================
+% HEADER --- course + presentation title + date
+%==============================================================================
+\section{\large AI for Mathematics --- Group Project Presentation}
+
+\vspace{-0.5em}
+
+\begin{center}
+    \textsc{\large \red{Presentation Title Goes Here}}
+\end{center}
+
+\vskip1cm
+
+\begin{center}
+    \normalsize \bfseries \color{gray}{\red{Group N} \, --- \, Tuesday 7 July 2026, 15:00--18:00, A4\#G11 \, --- \, XMUM General Elective}
+\end{center}
+
+%==============================================================================
+% GROUP MEMBERS --- names and (optionally) photos or affiliations
+%==============================================================================
+\vskip0.5in
+\begin{columns}
+    \begin{column}{0.01\linewidth}
+    \end{column}
+    \begin{column}{0.34\linewidth}
+        \vskip0.5cm
+        \begin{flushleft}
+          % Optional: replace this box with a group photo or a workflow
+          % diagram. Comment the box out if you do not want an image here.
+          \fbox{\parbox[c][6cm][c]{0.9\linewidth}{
+            \centering \color{gray}\itshape
+            (Optional group photo or project diagram)
+          }}
+        \end{flushleft}
+    \end{column}
+    \begin{column}{0.03\linewidth}
+    \end{column}
+    \begin{column}{0.62\linewidth}
+
+        \vspace{0.2cm}
+        \textbf{Group members:} \red{Student A; Student B; Student C}\\[\bigskipamount]
+
+        \vspace{0.2cm}
+        Department of Mathematics and Applied Mathematics,\\[0.5em]
+        Xiamen University Malaysia.\\[1em]
+
+        \textbf{Project topic:} \red{One-sentence topic assigned by the instructor.}\\[0.5em]
+        \textbf{Contact:} \red{group-lead-email@example.com}
+    \end{column}
+\end{columns}
+\vskip0.5in
+
+%==============================================================================
+% Main content in two columns so the poster fits on ONE A0 page.
+%==============================================================================
+\begin{multicols}{2}
+
+%==============================================================================
+% ABSTRACT
+%==============================================================================
+\subsection{Abstract}
+
+\red{Write 150--200 words. State: (1) the project question, (2) the method or
+workflow, (3) the preliminary results, and (4) what a reader should take away
+from the poster.}
+
+%==============================================================================
+% QUESTION AND MOTIVATION
+%==============================================================================
+\subsection{Question and Motivation}
+
+\red{What did the project study? Why does this small question matter for
+AI-for-mathematics? Which course ideas or papers does it build on? Keep this
+section focused --- one paragraph and, if useful, a small figure or citation
+list.}
+
+%==============================================================================
+% METHOD / WORKFLOW
+%==============================================================================
+\subsection{Method / Workflow}
+
+\red{Describe the workflow, tool chain, prompt design, dataset, or theorem
+set. If possible, include a diagram of the pipeline so a reader can see the
+loop between LLM output, checking, and repair. State explicitly what counts as
+one ``trial'' and how success or failure is decided.}
+
+% Uncomment and adjust to include a diagram:
+% \begin{center}
+%   \includegraphics[width=0.85\linewidth]{workflow-diagram.pdf}
+% \end{center}
+
+%==============================================================================
+% PRELIMINARY RESULTS
+%==============================================================================
+\subsection{Preliminary Results}
+
+\red{Report what actually happened. Use a table, a small chart, or 1--2
+representative examples. Preliminary results should be honest: report the
+number of trials, the success rate, and the failure count. Do not overclaim.}
+
+% Example table --- replace with your real numbers:
+% \begin{center}
+% \begin{tabular}{lccc}
+% \hline
+% Task set & Baseline & Our method & \# trials \\
+% \hline
+% Task family A &  3 / 20 & 12 / 20 & 20 \\
+% Task family B &  5 / 20 & 10 / 20 & 20 \\
+% \hline
+% \end{tabular}
+% \end{center}
+
+%==============================================================================
+% REPRESENTATIVE EXAMPLE
+%==============================================================================
+\subsection{Representative Example}
+
+\red{Walk through one concrete example end-to-end: the input, one or two steps
+of the workflow, and the final output. Choose an example that shows the method
+working AND, if space allows, one example where it fails. Concrete examples
+are usually the most persuasive part of a poster.}
+
+%==============================================================================
+% ERROR ANALYSIS AND LIMITATIONS
+%==============================================================================
+\subsection{Error Analysis and Limitations}
+
+\red{What were the main failure modes? What should a reader NOT conclude from
+this poster? For instance: small task set, no held-out test data, single
+random seed, only one LLM tested, no comparison with a strong baseline, etc.
+This section is required.}
+
+%==============================================================================
+% AI USE STATEMENT
+%==============================================================================
+\subsection{AI Use Statement}
+
+\red{Which AI tools were used (Claude, ChatGPT, Copilot, llmlean, Lean-aware
+agents, etc.)? For which tasks (coding, drafting, proof attempts, literature
+search, slide preparation)? How were the outputs checked (Lean type check,
+code tests, manual proof review, source verification)?}
+
+%==============================================================================
+% REFERENCES
+%==============================================================================
+\subsection{References}
+
+\red{List the key papers, Mathlib pages, documentation, datasets, and software
+that the project relies on. Keep the list short and specific --- 6--10 items
+is enough for a poster.}
+
+\end{multicols}
+
+\end{document}

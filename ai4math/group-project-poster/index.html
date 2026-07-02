@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Group Project — Poster Template | AI for Mathematics</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      color: #172033;
+      background: #f3f6fb;
+    }
+    .page { max-width: 880px; margin: 0 auto; padding: 40px 20px 64px; }
+    .panel {
+      background: #fff;
+      border: 1px solid #d8e2ef;
+      border-radius: 14px;
+      padding: 42px;
+      box-shadow: 0 16px 40px rgba(19, 45, 80, 0.10);
+    }
+    .back { display: inline-block; margin-bottom: 18px; color: #0b63b6; text-decoration: none; font-weight: 600; }
+    .back:hover { text-decoration: underline; }
+    h1 { margin: 0 0 8px; color: #003366; font-size: clamp(1.8rem, 4vw, 2.4rem); line-height: 1.15; }
+    .subtitle { color: #556; margin-bottom: 28px; }
+    h2 { color: #0d3b5e; margin-top: 32px; margin-bottom: 10px; font-size: 1.25rem; }
+    p { margin: 0 0 14px; }
+    ul { margin: 0 0 14px 20px; padding: 0; }
+    li { margin-bottom: 6px; }
+    code { background: transparent; color: #1a1a66; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .files {
+      background: #f7fbff;
+      border: 1px solid #cfe0f5;
+      border-radius: 10px;
+      padding: 16px 22px;
+      margin: 18px 0 8px;
+    }
+    .files a { color: #0b63b6; text-decoration: none; font-weight: 600; }
+    .files a:hover { text-decoration: underline; }
+    .files .desc { color: #556; font-weight: 400; font-size: 0.95em; }
+    .callout {
+      background: #fff8e1;
+      border-left: 5px solid #f39c12;
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin: 16px 0;
+      color: #7a4d00;
+    }
+    .preview {
+      display: block;
+      margin: 22px auto;
+      max-width: 100%;
+      border: 1px solid #d8e2ef;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(19, 45, 80, 0.08);
+    }
+    footer { margin-top: 32px; color: #999; font-size: 0.85em; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="panel">
+      <a class="back" href="../">← Back to AI for Mathematics</a>
+      <h1>Group Project — Poster Template</h1>
+      <p class="subtitle">For the group project presentation on Tuesday, 7 July 2026.</p>
+
+      <p>
+        Each group will present its project as an <strong>A0 portrait poster</strong>. The
+        template below is a LaTeX Beamer poster you can compile with <code>pdflatex</code>.
+        Replace the red placeholders with your group's content.
+      </p>
+
+      <div class="callout">
+        <p style="margin: 0 0 6px;"><strong>Deadlines</strong></p>
+        <ul style="margin: 0 0 0 20px; color: #7a4d00;">
+          <li>Poster (both <code>.tex</code> source and compiled <code>.pdf</code>): email to <a href="mailto:hoxide@gmail.com" style="color:#7a4d00;">hoxide@gmail.com</a> by <strong>23:59, Sun 5 Jul 2026</strong>.</li>
+          <li>Presentation: <strong>Tue 7 Jul 2026, 15:00–18:00, A4#G11</strong> — 40 minutes per group.</li>
+          <li>Final report (2–3 pages, PDF): email by <strong>23:59, Sun 19 Jul 2026</strong> (end of Reading Week).</li>
+        </ul>
+      </div>
+
+      <p><strong>Schedule (Tue 7 Jul, A4#G11):</strong></p>
+      <table style="color:#333; margin: 0 0 14px 0; border-collapse: collapse;">
+        <tr><td style="padding:2px 14px 2px 0; font-variant-numeric: tabular-nums;">15:00 – 15:40</td><td style="padding:2px 0;">Group 1</td></tr>
+        <tr><td style="padding:2px 14px 2px 0; font-variant-numeric: tabular-nums;">15:40 – 16:20</td><td style="padding:2px 0;">Group 2</td></tr>
+        <tr><td style="padding:2px 14px 2px 0; font-variant-numeric: tabular-nums;">16:20 – 17:00</td><td style="padding:2px 0;">Group 3</td></tr>
+        <tr><td style="padding:2px 14px 2px 0; font-variant-numeric: tabular-nums;">17:00 – 17:40</td><td style="padding:2px 0;">Group 4</td></tr>
+        <tr><td style="padding:2px 14px 2px 0; font-variant-numeric: tabular-nums; color:#7a4d00;">17:40 – 18:00</td><td style="padding:2px 0; color:#7a4d00;"><em>Wrap-up</em></td></tr>
+      </table>
+
+      <h2>Download</h2>
+      <div class="files">
+        <p style="margin-bottom:10px;">
+          <a href="group-project-poster-template.zip">group-project-poster-template.zip</a>
+          <span class="desc"> — full bundle (recommended)</span>
+        </p>
+        <p style="margin-bottom:0;">Or the individual files:</p>
+        <ul style="margin-top:8px; margin-bottom:0;">
+          <li><a href="group-project-poster-template.tex">group-project-poster-template.tex</a> <span class="desc">— main source</span></li>
+          <li><a href="beamerthemesharelatex.sty">beamerthemesharelatex.sty</a> <span class="desc">— poster theme (must sit next to the .tex)</span></li>
+          <li><a href="XMU2.png">XMU2.png</a> <span class="desc">— XMU header logo (must sit next to the .tex)</span></li>
+          <li><a href="group-project-poster-template.pdf">group-project-poster-template.pdf</a> <span class="desc">— compiled preview</span></li>
+        </ul>
+      </div>
+
+      <h2>How to compile</h2>
+      <p>Put all three files (<code>.tex</code>, <code>.sty</code>, <code>XMU2.png</code>) in the same folder, then:</p>
+      <p><code>pdflatex group-project-poster-template.tex</code></p>
+      <p>
+        This produces a single-page A0 portrait PDF. If you use Overleaf, create a new project
+        and upload all three files.
+      </p>
+
+      <h2>What to put on the poster</h2>
+      <p>The template is pre-structured into the sections we expect. Do not remove sections; do fill them in.</p>
+      <ul>
+        <li><strong>Header:</strong> presentation title, group number, group members.</li>
+        <li><strong>Abstract</strong> (150–200 words).</li>
+        <li><strong>Question and Motivation</strong> — the small question the project studies.</li>
+        <li><strong>Method / Workflow</strong> — with a diagram if useful.</li>
+        <li><strong>Preliminary Results</strong> — a table, chart, or concrete numbers.</li>
+        <li><strong>Representative Example</strong> — one worked example end-to-end.</li>
+        <li><strong>Error Analysis and Limitations</strong> — required.</li>
+        <li><strong>AI Use Statement</strong> — what tools, for what, how checked.</li>
+        <li><strong>References</strong> — 6–10 items.</li>
+      </ul>
+
+      <h2>Preview</h2>
+      <p>What the template looks like before you edit it:</p>
+      <img class="preview" src="group-project-poster-template.pdf" alt="Poster template preview">
+      <p style="color:#556; font-size:0.9em;">
+        (If the preview above does not render, open
+        <a href="group-project-poster-template.pdf">group-project-poster-template.pdf</a> directly.)
+      </p>
+
+      <h2>Rules</h2>
+      <ul>
+        <li>Poster is <strong>A0 portrait, single page</strong>. Do not split into multiple sheets.</li>
+        <li>Keep the XMU logo and the department footer bar intact.</li>
+        <li>All red placeholder text in the template must be replaced with your own content.</li>
+        <li>See the <a href="../../ai4math/">course page</a> and the group-project brief for the full deadlines and rubric.</li>
+      </ul>
+
+      <footer>Xiamen University Malaysia — Department of Mathematics and Applied Mathematics</footer>
+    </div>
+  </div>
+</body>
+</html>
